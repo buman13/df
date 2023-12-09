@@ -1,0 +1,209 @@
+
+    body {
+        background-color: #07325f;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        text-align: center;
+        box-shadow: 0px 3px 3px #05213e;
+        padding: 10px;
+    }
+    
+    header .logo {
+        width: 80px;
+        border-radius: 50%;
+        margin: 10px auto;
+    }
+    
+    .go h1 {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 10px;
+        color: #d1dde2;
+        font-size: 23px;
+    }
+    
+    .go svg {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: 10px;
+        color: #d1dde2;
+    }
+    
+    .go2 h2 {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: 10px;
+        color: #d1dde2;
+        font-size: 23px;
+    }
+    
+    .go2 svg {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: 10px;
+        color: #d1dde2;
+    }
+    
+    .topic {
+        text-align: center;
+    }
+    
+    .topic h1 {
+        color: #d1dde2;
+        font-size: 35px;
+    }
+    
+    .topic h2 {
+        color: #d1dde2;
+        font-size: 25px;
+    }
+    
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card {
+        background-color: #b9b9b9;
+        padding: 10px;
+        box-shadow: 0 9px 10px #051e38;
+        text-align: center;
+        transition: 0.5s;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    
+    .card p {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        grid-row: 4;
+    }
+    
+    .card .m,
+    .card .k {
+        position: relative;
+        right: 0;
+        font-size: 20px;
+        text-decoration: underline;
+        color: #4d8cd0;
+    }
+    
+    .card .j {
+        height: auto;
+    }
+    
+    .card .l {
+        position: relative;
+        right: 0;
+        font-size: 27px;
+    }
+    
+    .card img {
+        width: 100%;
+        height: auto;
+        transition: 0.3s;
+        border-radius: 10px;
+    }
+    
+    .card h1 {
+        margin-top: 5px;
+    }
+    
+    .card:hover {
+        transform: scale(1.06);
+    }
+    
+    .pop-img {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(52, 52, 52, 0.5);
+        backdrop-filter: blur(10px);
+        height: 100%;
+        width: 100%;
+        z-index: 100;
+        display: none;
+    }
+    
+    .pop-img span {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        font-size: 60px;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        z-index: 100;
+    }
+    
+    .pop-img img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .mahmo,
+    .mah,
+    .mh h1 {
+        font-size: 20px;
+        text-align: center;
+        color: #d1dde2;
+    }
+    
+    @media only screen and (max-width: 900px) {
+        .go h1,
+        .go svg,
+        .go2 h2,
+        .go2 svg,
+        .topic h1,
+        .topic h2,
+        .card,
+        .card p,
+        .card .m,
+        .card .k,
+        .card .l,
+        .pop-img span,
+        .mahmo,
+        .mah,
+        .mh h1 {
+            font-size: 80%;
+        }
+        .go h1 {
+            left: 9px;
+        }
+    
+        .go svg {
+            left: 6px;
+        }
+    
+        .go2 h2 {
+            right: 9px;
+        }
+    
+        .go2 svg {
+            right: 6px;
+        }
+    
+        header .logo {
+            width: 60px;
+        }
+        .card {
+            margin: 5px; /* Adjust margin for smaller screens */
+        }
+    }
+
+  
+      
+        
